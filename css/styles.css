@@ -1,0 +1,40 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+.divider-line {
+    margin: 0;
+    border-top: 1px solid #7d97ad;
+}
+
+.row-top {
+  margin-top:20px;
+}
+
+.blue-gray,  .header-1  {
+  color: #7d97ad;
+}
+
+.header-1 {
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
